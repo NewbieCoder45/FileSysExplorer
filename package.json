@@ -1,0 +1,25 @@
+{
+  "name": "file-system-explorer",
+  "version": "1.0.0",
+  "description": "A Node.js application that allows users to explore their file system, perform basic file operations, and retrieve information about their operating system.",
+  "main": "src/App.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node App.js",
+    "dev": "nodemon App.js",
+    "test": "console.log(\"Up and running\")"
+  },
+  "author": "Rahul Koshti",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "ejs": "^3.1.9",
+    "events": "^3.3.0",
+    "express": "^4.18.2",
+    "nodemon": "^3.1.0",
+    "os": "^0.1.2",
+    "stream": "^0.0.2"
+  }
+}
